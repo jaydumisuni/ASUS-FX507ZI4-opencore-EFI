@@ -6,7 +6,7 @@ Catalina version 10.15
 
 # Asus TUF 15 FX507ZI4 OpenCore OSX EFI Intel 12gen Alder Lake
 
-This repo was created after I was able to boot with the desktop files for Comet Lake platform.
+This repo was created after I was able to boot with the laptop Intel 12gen Alder Lake platform.
 Most of the work to get this to work was done by MaLd0n, which can be found here:
 https://www.olarila.com/topic/12233-eblogexitbsstart-error-opencore-big-sur-111/?tab=comments#comment-138034
 All credits for the DSDT file go to him.
