@@ -1,14 +1,15 @@
 # asus-tuf-15-opencore
 OpenCore files for Asus TUF 15
 
-# Asus TUF 15 FX506L OpenCore OSX EFI
+use this to download os for isnaller gibmacOS-master https://github.com/corpnewt/gibMacOS
+Catalina version 10.15
+
+# Asus TUF 15 FX507ZI4 OpenCore OSX EFI
 
 This repo was created after I was able to boot with the desktop files for Comet Lake platform.
 Most of the work to get this to work was done by MaLd0n, which can be found here:
 https://www.olarila.com/topic/12233-eblogexitbsstart-error-opencore-big-sur-111/?tab=comments#comment-138034
 All credits for the DSDT file go to him.
-
-[![license](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 **macOS Version: 11.1 Big Sur **
 
@@ -16,7 +17,7 @@ All credits for the DSDT file go to him.
 
 MacOS on Asus FX506L
 
- MacOS Big Sur 11.1-11.4 tested
+ MacOS Catalina 10.15 tested
  :-------------------------:
 
  
@@ -37,47 +38,47 @@ Added older WhateverGreen to fix backlight black for 3 minutes.
 
  ## Guide
  
- * Go to [GUIDE](https://dortania.github.io/vanilla-laptop-guide/)(**Official Guide**)
+ * Go to https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake (**Official Guide**)
 
  ## ## System Information 💻
  
  | Part | Functional | Model | 
  | --- | --- | --- |
- | Machine | ✅ | Asus TUF 15 FX506LI |
- | BIOS | ✅ | 3.06 |
- | CPU | ✅ | Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz |
- | RAM | ✅ | 24GB DDR4 SODIMM |
+ | Machine | ✅ | Asus TUF 15 FX507ZI4 |
+ | BIOS | ✅ | 329 |
+ | CPU | ✅ |  12th Gen Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 14 cores: 6 P-cores and 8 E-cores)|
+ | RAM | ✅ | 50GB DDR4-3200 / PC4-25600 DDR4 SDRAM SO-DIMM|
  | SSD | ✅ | 512GB NVMe |
- | iGPU | ✅ | Intel UHD Graphics 630 1536 MB |
- | WLAN | ✅ | Intel AX201 Wifi 6 Card |
- | Bluetooth | ✅ | Intel Bluetooth |
+ | iGPU | ✅/🚫 | Intel Iris Xe Graphics (Alder Lake-P 682 GT2) - Integrated Graphics Controller|
+ | WLAN | ✅/🚫 | Intel AX201 Wifi 6 Card |
+ | Bluetooth | ✅/🚫 | Intel Bluetooth |
  | Ethernet | ✅ | Realtek 8111 Gigabit Ethernet |
  | Webcam | ✅ | Integrated 720P Webcam |
  | Audio | ✅ | Realtek HDA |
  | Microphone | ✅  | Integrated Microphone |
  | Internal Screen | ✅ | 15.6" 1920x1080 144Hz |
- | Trackpad | ✅/🚫 | I2C ELAN1201 |
+ | Trackpad | 🚫 | I2C ELAN1201 |
  | Keyboard | ✅ | - |
- | dGPU | 🚫 | NVIDIA GTX 1650 4GB GDDR6 |
+ | dGPU | 🚫 | NVIDIA® GeForce RTX™ 4070 Laptop GPU (321 AI TOPs) |
  
 ## Perfectly Working Features
 
 - [x] Native Hardware NVRAM
-- [x] Intel UHD630
-- [x] Screen Brightness Control
-- [x] Screen Brightness Memoriztion After Reboot
-- [x] Native Screen Refresh Rate Settings
 - [x] USB 3.1 Gen 1
 - [x] Web Camera
 - [x] Battery Percentage
-- [x] Sleep & Wake
-
-- [x] ...
+- [x] Audio
+- [x] Eithenet
   
- ## ## Issues & Solutions
+ ## ## Issues & Solutions - [x] Intel Iris Xe
+- [x] Screen Brightness Control
+- [x] Screen Brightness Memoriztion After Reboot
+- [x] Native Screen Refresh Rate Settings-
+- [x] Sleep & Wake
+- [ ] 
  ### macOS
  * [Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
- * [How to download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
+ * [How to download a full ‘Install macOS’ gibMacOS https://www.youtube.com/watch?v=8F8URyHxkaE
  
  ## Generate your own SMbios
 
@@ -126,7 +127,7 @@ Added older WhateverGreen to fix backlight black for 3 minutes.
  * KEXT required to enable Audio support : `AppleALC.kext`
  * Make sure you inject audio `layout-id = 17` in OpenCore - this is in the current config.plist
  
- ### ELAN Trackpad (TPAD)
+ ### ELAN Trackpad (TPAD) still working on this 
  * Using the latest VoodooI2C as of now 2.6.3 with VoodooI2CHID
  * The touchpad works mostly fine, but the buttons only work when the tochpad is touched. both buttons work as left button, so can be used for drag and drop.
  * occassionally there is some delay/tear, right click works by enabling double finger click 
@@ -172,5 +173,3 @@ Added older WhateverGreen to fix backlight black for 3 minutes.
 - [corpnewt](https://github.com/corpnewt/CPUFriendFriend) for CPUFriendFriend
 - And all other authors that mentioned or not mentioned in this repo
  
- ## License
- * This work is issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE) and [MIT License](https://opensource.org/licenses/MIT).
