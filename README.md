@@ -13,7 +13,7 @@ All credits for the DSDT file go to him.
 
 **macOS Version: Catalina version 10.15**
 
-**OpenCore Version: [0.6.9 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)**
+**OpenCore Version: [1.0.4 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.4)**
 
 MacOS on Asus FX506L
 
