@@ -11,15 +11,16 @@ Most of the work to get this to work was done by MaLd0n, which can be found here
 https://www.olarila.com/topic/12233-eblogexitbsstart-error-opencore-big-sur-111/?tab=comments#comment-138034
 All credits for the DSDT file go to him.
 
-**macOS Version: 11.1 Big Sur **
+**macOS Version: Catalina version 10.15**
 
 **OpenCore Version: [0.6.9 Offical](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)**
 
 MacOS on Asus FX506L
 
- MacOS Catalina 10.15 tested
+ MacOS Catalina 10.15 tested,  11.1 Big Sur should work as the insaller loads
  :-------------------------:
-
+my efi goes from Asus FX507ZI4 Alder lake 1.7z to Asus FX507ZI4 Alder lake 2.7z
+ woriking on with 3 with a few patch will upload it 
  
  ## Updates
 - 2021-06-03
@@ -69,6 +70,7 @@ Added older WhateverGreen to fix backlight black for 3 minutes.
 - [x] Battery Percentage
 - [x] Audio
 - [x] Eithenet
+- [x] Thunderbolt 
   
  ## ## Issues & Solutions - [x] Intel Iris Xe
 - [x] Screen Brightness Control
