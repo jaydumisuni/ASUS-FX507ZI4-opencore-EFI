@@ -4,9 +4,9 @@ OpenCore files for Asus TUF 15
 use this to download os for isnaller gibmacOS-master https://github.com/corpnewt/gibMacOS
 Catalina version 10.15
 
-![Image](https://github.com/user-attachments/assets/eb309150-9653-4c25-8d57-0e270dc0f9d7)
-
 # Asus TUF 15 FX507ZI4 OpenCore OSX EFI Intel 12gen Alder Lake
+
+![Image](https://github.com/user-attachments/assets/eb309150-9653-4c25-8d57-0e270dc0f9d7)
 
 This repo was created after I was able to boot with the laptop Intel 12gen Alder Lake platform.
 Most of the work to get this to work was done by MaLd0n, which can be found here:
