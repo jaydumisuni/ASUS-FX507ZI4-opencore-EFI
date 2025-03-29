@@ -6,7 +6,7 @@ Catalina version 10.15
 
 # Asus TUF 15 FX507ZI4 OpenCore OSX EFI Intel 12gen Alder Lake
 
-<!-- Uploading "Screenshot 2025-03-29 at 17.09.14.png"... -->
+![Image](https://github.com/user-attachments/assets/29c29db2-38da-4ab0-9bd9-40cb91c15146)
 
 This repo was created after I was able to boot with the laptop Intel 12gen Alder Lake platform.
 Most of the work to get this to work was done by MaLd0n, which can be found here:
