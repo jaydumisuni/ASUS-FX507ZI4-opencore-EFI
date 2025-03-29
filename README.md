@@ -53,8 +53,8 @@ Added older WhateverGreen to fix backlight black for 3 minutes.
  | RAM | ✅ | 50GB DDR4-3200 / PC4-25600 DDR4 SDRAM SO-DIMM|
  | SSD | ✅ | 512GB NVMe |
  | iGPU | ✅/🚫 | Intel Iris Xe Graphics (Alder Lake-P 682 GT2) - Integrated Graphics Controller|
- | WLAN | ✅/🚫 | Intel AX201 Wifi 6 Card |
- | Bluetooth | ✅/🚫 | Intel Bluetooth |
+ | WLAN | ✅ | Intel AX201 Wifi 6 Card |
+ | Bluetooth | ✅ | Intel Bluetooth |
  | Ethernet | ✅ | Realtek 8111 Gigabit Ethernet |
  | Webcam | ✅ | Integrated 720P Webcam |
  | Audio | ✅ | Realtek HDA |
